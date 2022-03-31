@@ -20,6 +20,8 @@ The comparison models of LSTM and Transformer are in `LSTM` and `transformer`.
 
 1) A novel network, i.e. **TSSN**, is proposed for generating an effective task-agnostic model for various downstream tasks on traffic flow data. 
 
+    ![System structure](./structure-eps-converted-to.pdf)
+
     Meanwhile, a novel pretext task, i.e. **masked token prediction(MTP)**, is designed to provide strong surrogate supervision signals for the pre-training of TSSN.
 
 2) Three types of **downstream tasks**, i.e. TF classification, prediction and completion, are solved by using the representations of tokens created in pre-training model.
